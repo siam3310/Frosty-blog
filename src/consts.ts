@@ -31,7 +31,7 @@ export const infoTest = {
 // Menu items for navigation
 export const menuItems = [
   { id: "home", text: "Home", href: "/", svg: "home", target: "_self" }, // Home page
-  { id: "about", text: "About", href: "/about", svg: "about", target: "_self" }, // About page
+
   {
     id: "blog",
     text: "Blogs",
@@ -62,20 +62,7 @@ export const menuItems = [
       }, // Life category
     ],
   }, // Blog page with sub-items
-  {
-    id: "project",
-    text: "Project",
-    href: "/project",
-    svg: "project",
-    target: "_self",
-  }, // Projects page
-  {
-    id: "friend",
-    text: "Friend",
-    href: "/friend",
-    svg: "friend",
-    target: "_self",
-  }, // Friends page
+
   {
     id: "contact",
     text: "Contact",
