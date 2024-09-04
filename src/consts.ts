@@ -3,8 +3,8 @@
 
 // Site title and description
 export const SITE_TAB = "FreeGuyBD";
-export const SITE_TITLE = "FreeGuyBD 🧊";
-export const SITE_DESCRIPTION = "Premium is nothing";
+export const SITE_TITLE = "FreeGuyBD ";
+export const SITE_DESCRIPTION = "Nothing is PREMIUM";
 export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
@@ -71,7 +71,7 @@ export const menuItems = [
   }, // Projects page
   {
     id: "friend",
-    text: "More",
+    text: "Friend",
     href: "/friend",
     svg: "friend",
     target: "_self",
@@ -85,3 +85,30 @@ export const menuItems = [
   },
 ];
 
+// Social media and contact icons
+export const socialIcons = [
+  {
+    href: "",
+    ariaLabel: "Support my work",
+    title: "Support my work",
+    svg: "support",
+  },
+  {
+    href: "",
+    ariaLabel: "Github",
+    title: "Github",
+    svg: "github",
+  },
+  {
+    href: "",
+    ariaLabel: "BiliBili",
+    title: "BiliBili",
+    svg: "bilibili",
+  },
+  {
+    href: "/rss.xml",
+    ariaLabel: "RSS Feed",
+    title: "RSS Feed",
+    svg: "rss",
+  },
+];
